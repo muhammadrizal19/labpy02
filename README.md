@@ -66,3 +66,11 @@ Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
 ![Screenshot_20241103_111205_Chrome](https://github.com/user-attachments/assets/58c95385-cd2e-4334-87d9-cc8e283cfb7a)
 
 # Kasus 2 : program kalkulator sederhana,Kode program ini dirancang untuk melakukan operasi aritmatika sederhana berdasarkan input pengguna.
+![Screenshot_20241103_142410_Chrome](https://github.com/user-attachments/assets/64dce032-8344-4512-a34e-59012390d7b9)
+- flowchart
+  ![IMG-20241103-WA0006](https://github.com/user-attachments/assets/ff499d85-2170-4483-8f4d-36f9281ad28a)
+- Input: Kode program meminta pengguna untuk memasukkan operator aritmatika (+, -, *, /) dan dua angka.
+- Validasi Operator: Kode menggunakan struktur if-elif-else untuk memvalidasi operator yang dimasukkan.
+- Operasi Aritmatika: Berdasarkan operator yang valid, kode melakukan operasi aritmatika yang sesuai dan menyimpan hasilnya dalam variabel hasil.
+- Validasi Pembagian dengan Nol: Kode mengecek apakah angka kedua adalah nol untuk menghindari pembagian dengan nol. Jika angka kedua nol, program akan menampilkan pesan error dan menghentikan eksekusi.
+Output hasil :
