@@ -34,3 +34,11 @@ Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
 - Output hasil :
 ![Screenshot_20241103_105732_Chrome](https://github.com/user-attachments/assets/2afe0e6a-57c7-4abf-b3ee-dc28c8a7e988)
 - Pada contoh output pada gambar, jika gaji 9.000.000, status berkeluarga "T", dan punya rumah "Y":Program menampilkan bahwa gaji di atas UMR. Menampilkan bahwa pengguna tidak perlu ikut asuransi dan Menampilkan bahwa pengguna wajib membayar pajak rumah.
+
+# Latihan 3 : Penggunaan kondisi OR Program membandingkan 3 input bilangan lainnnya, maka cetak pernyataan "BENAR"
+- Input data :
+ - Kode ini meminta pengguna untuk memasukkan tiga bilangan: a, b, dan c. Input dari pengguna dikonversi ke tipe int agar dapat digunakan dalam operasi aritmatika.
+- Pengecekan kondisi :
+  -  Kode ini memeriksa apakah salah satu dari kondisi berikut terpenuhi: a + b == c b + c == a c + a == b Jika salah satu kondisi di atas benar, program akan mencetak "BENAR". Jika tidak ada kondisi yang terpenuhi, program akan mencetak "SALAH".
+   -  Kode ini mengecek apakah salah satu dari tiga bilangan (a, b, atau c) dapat merupakan hasil penjumlahan dari dua bilangan lainnya. Pada contoh output pada gambar: Jika a = 5, b = 5, dan c = 10, maka kondisi terpenuhi, sehingga hasilnya adalah "BENAR".
+- Output hasil :
