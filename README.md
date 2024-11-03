@@ -20,6 +20,7 @@ Hasil Program: Pada contoh output di sisi gambar, jika nilai tugas, UTS, dan UAS
 Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
 
 # Latihan 2 : Membuat Proggram Menampilkan Status Gaji Karyawan
+![Screenshot_20241103_105722_Chrome](https://github.com/user-attachments/assets/af70c9e2-9352-4a87-b371-98f0a6fe26ce)
 - Input data :
    - Kode ini meminta pengguna untuk memasukkan gaji, status keluarga, dan kepemilikan rumah. Variabel gaji menyimpan nilai gaji sebagai integer.
  - Variabel berkeluarga akan bernilai True jika pengguna memasukkan "Y" (sudah berkeluarga) dan False jika "T". Variabel punya rumah akan bernilai True jika pengguna memasukkan "Y" (punya rumah) dan False jika "T".
@@ -31,3 +32,5 @@ Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
   - Jika punya_rumah bernilai True, program akan menampilkan "Wajib bayar pajak rumah". Jika punya_rumah bernilai False, program akan menampilkan "Tidak wajib bayar pajak rumah".
   - Jika gaji tidak lebih dari 3.000.000, program akan langsung menampilkan "Gaji belum UMR" tanpa melakukan pengecekan tambahan
 - Output hasil :
+![Screenshot_20241103_105732_Chrome](https://github.com/user-attachments/assets/2afe0e6a-57c7-4abf-b3ee-dc28c8a7e988)
+- Pada contoh output pada gambar, jika gaji 9.000.000, status berkeluarga "T", dan punya rumah "Y":Program menampilkan bahwa gaji di atas UMR. Menampilkan bahwa pengguna tidak perlu ikut asuransi dan Menampilkan bahwa pengguna wajib membayar pajak rumah.
