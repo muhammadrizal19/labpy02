@@ -36,9 +36,27 @@ Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
 - Pada contoh output pada gambar, jika gaji 9.000.000, status berkeluarga "T", dan punya rumah "Y":Program menampilkan bahwa gaji di atas UMR. Menampilkan bahwa pengguna tidak perlu ikut asuransi dan Menampilkan bahwa pengguna wajib membayar pajak rumah.
 
 # Latihan 3 : Penggunaan kondisi OR Program membandingkan 3 input bilangan lainnnya, maka cetak pernyataan "BENAR"
+![Screenshot_20241103_110456_Chrome](https://github.com/user-attachments/assets/f608d235-5c7a-4662-911a-e4e4a7436f2a)
 - Input data :
  - Kode ini meminta pengguna untuk memasukkan tiga bilangan: a, b, dan c. Input dari pengguna dikonversi ke tipe int agar dapat digunakan dalam operasi aritmatika.
 - Pengecekan kondisi :
   -  Kode ini memeriksa apakah salah satu dari kondisi berikut terpenuhi: a + b == c b + c == a c + a == b Jika salah satu kondisi di atas benar, program akan mencetak "BENAR". Jika tidak ada kondisi yang terpenuhi, program akan mencetak "SALAH".
    -  Kode ini mengecek apakah salah satu dari tiga bilangan (a, b, atau c) dapat merupakan hasil penjumlahan dari dua bilangan lainnya. Pada contoh output pada gambar: Jika a = 5, b = 5, dan c = 10, maka kondisi terpenuhi, sehingga hasilnya adalah "BENAR".
+- Output hasil :
+![Screenshot_20241103_110507_Chrome](https://github.com/user-attachments/assets/5c4133d5-67cc-4a36-8e11-cd03f3d0e9ad)
+
+# Kasus 1 : Program pemesanan tiket bioskop, Program ini meminta input dari user untuk tipe tiket (reguler atau VIP) dan status member (memiliki kartu member atau tidak).
+- Mendefinisikan harga tiket :
+   - harga_tiket_reguler: Harga tiket reguler didefinisikan sebesar 50000 harga_tiket_vip: Harga tiket VIP didefinisikan sebesar 100000 diskon_member: Besar diskon untuk member didefinisikan sebesar 0.20 (20%)
+- Meminta input dari user :
+    - Program meminta user untuk memasukkan tipe tiket (reguler/vip) dan menyimpannya ke dalam variabel tipe_tiket.
+   - Program meminta user untuk memasukkan status member (ya/tidak) dan menyimpannya ke dalam variabel status_member.
+  - Kedua input dari user diubah menjadi huruf kecil menggunakan fungsi lower().
+- Menghitung harga tiket berdasarkan tipe :
+    - Jika tipe_tiket adalah "reguler", maka harga_tiket diset menjadi harga_tiket_reguler.
+    - Jika tipe_tiket adalah "vip", maka harga_tiket diset menjadi harga_tiket_vip.
+    - Jika tipe_tiket bukan "reguler" atau "vip", maka program menampilkan pesan "Tipe tiket tidak valid" dan keluar dari program.
+- Mengecek status untuk member diskon :
+    - Program memeriksa nilai status_member: Jika status_member adalah "ya", maka total_harga dihitung dengan rumus harga_tiket * (1 - diskon_member), yang memberikan diskon kepada member.
+   - Jika status_member bukan "ya", maka total_harga diset sama dengan harga_tiket tanpa diskon.
 - Output hasil :
