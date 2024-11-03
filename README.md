@@ -12,3 +12,4 @@ Fungsi int() digunakan untuk mengkonversi input string menjadi integer
     B jika lebih dari 70 C jika lebih dari 50
     D jika lebih dari 40 E jika di bawah atau sama dengan 40
 - Output hasil
+![Screenshot_20241103_104315_Chrome](https://github.com/user-attachments/assets/af1df4d7-ca73-4888-944c-2dd9d235c990)
