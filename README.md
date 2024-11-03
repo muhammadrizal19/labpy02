@@ -1,4 +1,5 @@
 # Latihan 1 : Membuat proggram menentukan nilai akhir
+![Screenshot_20241103_104300_Chrome](https://github.com/user-attachments/assets/3ad6fca6-b860-48d0-a80f-c62a77e396f3)
 - input data :
    - meminta pengguna untuk memasukan nilai UTS (Ujian Tengah Semester), nilai UAS (Ujian Akhir Semester), dan nilai tugas
 - Perhitungan nilai akhir :
