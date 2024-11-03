@@ -13,3 +13,8 @@ Fungsi int() digunakan untuk mengkonversi input string menjadi integer
     D jika lebih dari 40 E jika di bawah atau sama dengan 40
 - Output hasil
 ![Screenshot_20241103_104315_Chrome](https://github.com/user-attachments/assets/af1df4d7-ca73-4888-944c-2dd9d235c990)
+- Kode ini menampilkan hasil, termasuk nilai UTS, UAS, tugas, nilai akhir, nilai huruf, dan keterangan lulus atau tidak lulus.
+
+Hasil Program: Pada contoh output di sisi gambar, jika nilai tugas, UTS, dan UAS adalah 95, 85, dan 80, maka
+
+Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
