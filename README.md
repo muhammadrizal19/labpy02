@@ -18,3 +18,16 @@ Fungsi int() digunakan untuk mengkonversi input string menjadi integer
 Hasil Program: Pada contoh output di sisi gambar, jika nilai tugas, UTS, dan UAS adalah 95, 85, dan 80, maka
 
 Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
+
+# Latihan 2 : Membuat Proggram Menampilkan Status Gaji Karyawan
+- Input data :
+   - Kode ini meminta pengguna untuk memasukkan gaji, status keluarga, dan kepemilikan rumah. Variabel gaji menyimpan nilai gaji sebagai integer.
+ - Variabel berkeluarga akan bernilai True jika pengguna memasukkan "Y" (sudah berkeluarga) dan False jika "T". Variabel punya rumah akan bernilai True jika pengguna memasukkan "Y" (punya rumah) dan False jika "T".
+- Pengecekkan gaji :
+  - Jika gaji lebih dari 3.000.000, maka program akan mencetak "Gaji sudah di atas UMR". Jika tidak, program akan langsung mencetak "Gaji belum UMR" pada bagian else.
+- Pengecekkan status keluarga :
+ - Jika berkeluarga bernilai True,program akan menampilkan "Wajib ikutan asuransi dan menabung untuk pensiun". Jika berkeluarga bernilai False, program akan menampilkan "Tidak perlu ikutan asuransi".
+- Pengecekkan kepemilikan rumah :
+  - Jika punya_rumah bernilai True, program akan menampilkan "Wajib bayar pajak rumah". Jika punya_rumah bernilai False, program akan menampilkan "Tidak wajib bayar pajak rumah".
+  - Jika gaji tidak lebih dari 3.000.000, program akan langsung menampilkan "Gaji belum UMR" tanpa melakukan pengecekan tambahan
+- Output hasil :
