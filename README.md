@@ -74,3 +74,7 @@ Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
 - Operasi Aritmatika: Berdasarkan operator yang valid, kode melakukan operasi aritmatika yang sesuai dan menyimpan hasilnya dalam variabel hasil.
 - Validasi Pembagian dengan Nol: Kode mengecek apakah angka kedua adalah nol untuk menghindari pembagian dengan nol. Jika angka kedua nol, program akan menampilkan pesan error dan menghentikan eksekusi.
 Output hasil :
+![Screenshot_20241103_142423_Chrome](https://github.com/user-attachments/assets/71e866b1-f298-4f51-9c58-da03424c4ece)
+![Screenshot_20241103_142505_Chrome](https://github.com/user-attachments/assets/e760ef76-1bce-4569-89f2-8fe8145ee63d)
+![Screenshot_20241103_142533_Chrome](https://github.com/user-attachments/assets/6044926e-bdae-42dd-af60-e2d56c9035f0)
+![Screenshot_20241103_142607_Chrome](https://github.com/user-attachments/assets/675f53f3-f108-428c-ba24-995286428bd2)
