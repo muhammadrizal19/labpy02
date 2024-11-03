@@ -46,6 +46,7 @@ Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
 ![Screenshot_20241103_110507_Chrome](https://github.com/user-attachments/assets/5c4133d5-67cc-4a36-8e11-cd03f3d0e9ad)
 
 # Kasus 1 : Program pemesanan tiket bioskop, Program ini meminta input dari user untuk tipe tiket (reguler atau VIP) dan status member (memiliki kartu member atau tidak).
+![Screenshot_20241103_111156_Chrome](https://github.com/user-attachments/assets/3c876969-4ab4-46e5-b4e5-84c992fcd58b)
 - Mendefinisikan harga tiket :
    - harga_tiket_reguler: Harga tiket reguler didefinisikan sebesar 50000 harga_tiket_vip: Harga tiket VIP didefinisikan sebesar 100000 diskon_member: Besar diskon untuk member didefinisikan sebesar 0.20 (20%)
 - Meminta input dari user :
@@ -60,3 +61,4 @@ Nilai akhir adalah 88. Nilai huruf adalah "A". Keterangan: "LULUS".
     - Program memeriksa nilai status_member: Jika status_member adalah "ya", maka total_harga dihitung dengan rumus harga_tiket * (1 - diskon_member), yang memberikan diskon kepada member.
    - Jika status_member bukan "ya", maka total_harga diset sama dengan harga_tiket tanpa diskon.
 - Output hasil :
+![Screenshot_20241103_111205_Chrome](https://github.com/user-attachments/assets/58c95385-cd2e-4334-87d9-cc8e283cfb7a)
